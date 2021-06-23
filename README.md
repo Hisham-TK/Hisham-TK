@@ -4,9 +4,9 @@
   <img src="./_assets/logo.png" width="100%" alt="Nest Logo" />
 </p>
 
-## I'm a Senior Node.js Developer
+## I'm a Software Developer Developer
 
-### using JavaScript, TypeScript, Node.js, GraphQL, MongoDB, RabbitMQ, Kafka, Angular, React
+### using Node.js, JavaScript, TypeScript, GraphQL, MongoDB, RabbitMQ, Kafka, Angular, React
 
 My online resume website [www.hisham.work](http://www.hisham.work)
 
