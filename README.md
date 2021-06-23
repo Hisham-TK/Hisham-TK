@@ -1,15 +1,9 @@
-<section align="center">
+<section align="center" style="text-align:center;">
 
 <img src="./_assets/logo.png" width="100%" alt="Nest Logo" />
 
-### Innovative, Diligent, Energetic, Carefree, Analytical, Critical Thinking, Autonomy
-
-### Software Developer based in Alexandria, Egypt
-
-### using JavaScript, TypeScript, Node.js Developer
-
-### With very intensive 3 years of experience
-
+### Innovative, Diligent, Energetic, Carefree, Analytical, Critical Thinking, Autonomy Software Developer based in Alexandria, Egypt
+### using JavaScript, TypeScript, Node.js Developer With very intensive 3 years of experience 
 ### Graduated from (MEAN Stack & GIS Tracks in ITI) & (Bachelor of Arts in Geography and GIS)
 
 My online resume website [www.hisham.work](http://www.hisham.work)
