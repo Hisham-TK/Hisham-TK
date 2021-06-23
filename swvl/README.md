@@ -4,29 +4,35 @@
 
 #### Case: Marketplace Tribe
 
-```text
+```markdown
 In Swvl, we communicate with our customers via different types of notifications (e.g we send promo codes to customers via SMS, send in-ride push notifications like “Your drop-off station is coming”). And each customer receives a notification in their preferred language.
 
 ## Specifications
-  ● Notifications Types are as follows:
-    ○ Group notifications are sent as a text notification to a group of users.
-    ○ Personalized notifications are sent as a specific text notification to a specific user.
-  ● Notification can be delivered by two types of providers:
-    ○ SMS
-    ○ Push notifications
-  ● The number of requests that providers (SMS, Push notifications) can handle per minute is limited.
+
+    ● Notifications Types are as follows:
+        ○ Group notifications are sent as a text notification to a group of users.
+        ○ Personalized notifications are sent as a specific text notification to a specific user.
+    ● Notification can be delivered by two types of providers:
+        ○ SMS
+        ○ Push notifications
+
+    ● The number of requests that providers (SMS, Push notifications) can handle per minute is limited.
 
 ## Requirements
-  ● Implement the notification service.
-  ● Write units tests to test your service the more coverage the better
-  ● Service should be run by docker-compose up.
-  ● Documentation:
-    ○ A simple diagram of the architecture.
-    ○ How to run it.
-    ○ How another microservice would contact this service to send a notification.
-    ○ Future improvements
+
+    ● Implement the notification service.
+    ● Write units tests to test your service the more coverage the better
+    ● Service should be run by docker-compose up.
+    ● Documentation:
+        ○ A simple diagram of the architecture.
+        ○ How to run it.
+        ○ How another microservice would contact this service to send a notification.
+        ○ Future improvements
+
 Use Nodejs / Python / GoLang / Java for your implementation.
 ```
+
+---
 
 ## Architecture
 
@@ -73,13 +79,17 @@ Use Nodejs / Python / GoLang / Java for your implementation.
 - Docker compose
   : scale the service and instantiate
 
-# Requirement
+---
+
+## Requirement
 
 - Install Node.js v12+
 - Install Docker & Docker-compose
 - Install Erlang, Rabbit-MQ (optional if you are not going to use docker-compose containers)
 
-# How to start
+---
+
+## How to start
 
 ### Running on Docker
 
@@ -113,7 +123,9 @@ $ npm run test
 $ npm run test:cov
 ```
 
-# How to connect
+---
+
+## How to connect
 
 ## Publish messages to Message broker at "notification" queue
 
@@ -264,7 +276,9 @@ export class NotificationService {
 }
 ```
 
-# Future improvements
+---
+
+## Future improvements
 
 - Implement more bushiness, and validation instead of just payload pipe-line validation
 - Add email notification and mail message to notification module depend on bushiness needs
@@ -274,9 +288,13 @@ export class NotificationService {
 - Integrate with a real push notification, sms services providers
 - test cases and write more unit tests
 
+---
+
 ## Stay in touch
 
 - Repo Author - [Hisham Taha](https://www.linkedin.com/in/hisham-taha-kamal-al-din/)
+
+---
 
 ## License
 
