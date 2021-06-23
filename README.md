@@ -1,12 +1,12 @@
 <section align="center">
 
-  <img src="./_assets/logo.png" width="100%" alt="Nest Logo" />
+<img src="./_assets/logo.png" width="100%" alt="Nest Logo" />
 
 ### Innovative, Diligent, Energetic, Carefree, Analytical, Critical Thinking, Autonomy
 
-## Software Developer based in Alexandria, Egypt
+### Software Developer based in Alexandria, Egypt
 
-## using JavaScript, TypeScript, Node.js Developer
+### using JavaScript, TypeScript, Node.js Developer
 
 ### With very intensive 3 years of experience
 
